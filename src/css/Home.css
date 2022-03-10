@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: skyblue;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+.main {
+  background: #ffffff;
+  display: flex;
+}
+.user-inputs {
+  flex-basis: 50%;
+  padding: 40px 60px;
+}
+.user-details {
+  flex-basis: 50%;
+  padding: 40px;
+  background: #1c00b5;
+  color: #ffffff;
+}
+h1 {
+  margin-bottom: 30px;
+}
+.input-row {
+  margin-bottom: 20px;
+}
+label {
+  margin-bottom: 5px;
+  display: block;
+  color: #1c00b5;
+}
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+button {
+  background: #1c00b5;
+  color: #ffffff;
+  width: 100px;
+  border: none;
+  outline: none;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+  cursor: pointer;
+}
+.user-inputs h3 {
+  color: #1c00b5;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.user-details h3 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/* table */
+
+.table {
+  display: table;
+  width: 100%;
+  margin: auto;
+}
+.thead {
+  display: table-header-group;
+  font-weight: bold;
+}
+.th {
+  display: table-cell;
+  text-align: justify;
+  border-bottom: 2px solid #9f9f9f;
+  padding: 10px 0;
+}
+.tbody {
+  display: table-row-group;
+}
+.tr {
+  display: table-row;
+}
+.td {
+  display: table-cell;
+  border-bottom: 1px solid rgb(173, 173, 173);
+  padding: 10px 0;
+}
+
+/* icon */
+.fa-edit {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0 2px;
+  cursor: pointer;
+}
+.fa-trash-alt {
+  color: rgb(233, 66, 66);
+  font-size: 16px;
+  padding: 0 2px;
+  cursor: pointer;
+}
+.fa-eye {
+  color: #55ffe5;
+  font-size: 16px;
+  padding: 0 2px;
+  cursor: pointer;
+}
+.error {
+  color: red;
+  margin-top: 3px;
+}
+
+.alert {
+  padding: 13px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.no-user {
+  text-align: center;
+  display: block;
+  margin: 30px 0;
+  color: #9f9f9f;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .main {
+    flex-direction: column;
+    width: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+.details-main {
+  background: #ffffff;
+  padding: 40px 60px;
+}
+.details-main h3 {
+  color: #1c00b5;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back {
+  text-decoration: none;
+  color: #1c00b5;
+  margin-top: 40px;
+  display: block;
+  width: 70px;
+  border: 1px solid #1c00b5;
+  text-align: center;
+  padding: 5px;
+  outline: none;
+}
